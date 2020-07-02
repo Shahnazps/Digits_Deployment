@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hand Written Digits Recognition</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ url_for('static',filename='css/styles.css')}}">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+</head>
+<body>
+	<div class="container">
+		<h1>Upload your image</h1>
+		<h2>(Please upload images less than 500kb in size)</h2>
+		<form action="http://127.0.0.1:5000/" method="POST" enctype="multipart/form-data">
+			<p>
+				<input type="file" name="file">
+				<input type="submit" value="Upload">
+			</p>
+		</form>
+	</div>
+</body>
+</html>
