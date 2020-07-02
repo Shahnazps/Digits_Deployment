@@ -73,13 +73,4 @@ tensorboard==2.2.2
 tensorboard-plugin-wit==1.6.0.post3
 tensorflow==2.2.0
 tensorflow-estimator==2.2.0
-termcolor==1.1.0
-testresources==2.0.1
-tifffile==2020.6.3
-toml==0.10.1
-tqdm==4.47.0
-w3lib==1.22.0
-wcwidth==0.2.3
-websockets==8.1
-Werkzeug==1.0.1
-wrapt==1.12.1
+
