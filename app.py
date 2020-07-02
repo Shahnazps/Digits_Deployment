@@ -48,7 +48,7 @@ def paddedImg(img):
 	yy = (hh - ht) // 2
 	result[yy:yy+ht, xx:xx+wd] = img
 	return cv2.resize(result,(28,28))
-	
-app.run(host='0.0.0.0',port=80,threaded=False)
+if __name__ == "__main__":	
+	app.run(debug=True)
 
 
